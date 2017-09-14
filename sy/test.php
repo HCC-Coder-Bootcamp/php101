@@ -25,9 +25,9 @@
 	$name = 'shuangyee';
 	$nickname = 'sy';
 	$birthday = '11 June';
-	$custom_message = 'give me an angpau maybe';
+	$custom_message = 'Elliot very handsome';
 
-	$double_quote_greeting = "Hi , here is $name , you can call me $nickname . My birthday is on $birthday , so you can $custom_message .";
+	$double_quote_greeting = "Hi , here is $name , you can call me $nickname . My birthday is on $birthday .\t What i want to say is $custom_message !";
 
 		echo $double_quote_greeting;
 
