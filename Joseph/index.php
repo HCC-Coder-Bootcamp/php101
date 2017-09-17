@@ -17,15 +17,15 @@
 
 	$myStatus = 'still single';
 
-	$selfIntroduction1 = 'Hi there!! My name is ' . $myName . ', but sometimes my friends would like to call me ' . $myNickname . '. I am a male.';
+	$selfIntroductionSingleQuote = 'Hi there!! My name is ' . $myName . ', but sometimes my friends would like to call me ' . $myNickname . '. I am a male.';
 
-	$selfIntroduction2 = "My birthday is on $myBirthday. I am $myStatus right now.";
+	$selfIntroductionDoubleQuote = "My birthday is on $myBirthday. I am $myStatus right now.";
 
-	echo $selfIntroduction1;
+	echo $selfIntroductionSingleQuote;
 
 	echo '<br>';
 
-	echo $selfIntroduction2;
+	echo $selfIntroductionDoubleQuote;
 
 	?>
 </body>
