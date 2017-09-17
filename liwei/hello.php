@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>document</title>
+    <title>php101</title>
 </head>
 <body>
     <h1>hello word</h1>
@@ -19,11 +19,11 @@
 
        $myGender = 'Boy';    
 
-       $selfintroduction = 'Hi, im,' . $myName . ' im a ' . $myGender . ' haha ';
+       $selfIntroduction = 'Hi, im,' . $myName . ' im a ' . $myGender . ' haha ';
       //double quote 
              //$selfintroduction = "Hi, im $myName im a $myGender haha "; 
 
-       echo $selfintroduction;
+       echo $selfIntroduction;
      ?>
      <br>
      <?php
@@ -40,7 +40,7 @@
       //double quote
       //$greetingline = "Hi, im $myName, my nickname is $myNickname my Birthday is $myBirthday $myCustomemassage";
 
-       echo $greetingline;
+       echo $greetingLine;
      ?>
 </body>
 </html>
